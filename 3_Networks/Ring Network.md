@@ -1,0 +1,1 @@
+In a ring network we complete the loop. In this the number of nodes and edges are equal.
