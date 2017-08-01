@@ -2,7 +2,7 @@
 
 def centrality(G, v):
     distance_from_start = {}
-    open_list = {v}
+    open_list = [v]
     distance_from_start[v] = 0
     while len(open_list) > 0:
         current = open_list[0]
@@ -13,10 +13,7 @@ def centrality(G, v):
                 open_list.append(neighbour)
         return (sum(distance_from_start.values())+0.0)/len(distance_from_start)
 
-from_node = "A"
-to_node = "ZZZAX"
 
-print centrality(marvelG,from_node)
 
 
 # We go to open list, pull the first element off at the current node that we were working on, pop it off the list.
