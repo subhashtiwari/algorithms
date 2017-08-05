@@ -37,3 +37,5 @@ def down_heapify(L, i):
 
 # This routine is called if the heap rooted at i satisfies the heap property
 # except perhaps i to its immediate children
+
+# The running time of this code is theta(logn). As it is a tree. 
