@@ -13,3 +13,5 @@ To find the shortest paths we do depth first
 6. Following this we get a node and pull off the open list and all its edges to the non-complete nodes.
 
 7. Following all these steps we get shortest path from starting node to ending node.
+
+An example is shown in image Shortest Path with answer.
